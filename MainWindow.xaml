@@ -1,0 +1,18 @@
+﻿<Window x:Class="OOP_LR2_V2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:syncfusion1="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:OOP_LR2_V2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="730" Width="1000">
+
+    <DockPanel Background="AliceBlue" LastChildFill="True">
+        <DockPanel Name="toolPanel" DockPanel.Dock="Left" Width="215">
+        </DockPanel>
+        <DockPanel>
+            <Canvas Name="DrawFieldCanvas" Margin="0,10,10,0" Background="#FFECEAEA" MouseUp="Canvas_MouseUp" Grid.RowSpan="3" Height="664" VerticalAlignment="Top" HorizontalAlignment="Right" Width="785" Grid.Column="1"/>
+        </DockPanel>
+    </DockPanel>
+</Window>
